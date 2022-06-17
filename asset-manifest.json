@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/fat-bros/static/css/main.4ca10654.css",
+    "main.js": "/fat-bros/static/js/main.7849745d.js",
+    "static/media/video1.mp4": "/fat-bros/static/media/video1.bab16dbc7c5710180e71.mp4",
+    "static/media/video2.mp4": "/fat-bros/static/media/video2.85c3cde827126e72a5a4.mp4",
+    "static/media/falafel.jpg": "/fat-bros/static/media/falafel.ae5122eac510848add61.jpg",
+    "static/media/video3.mp4": "/fat-bros/static/media/video3.a4e8a5942d0f1dd9574e.mp4",
+    "static/media/slider4.jpg": "/fat-bros/static/media/slider4.cb783da3de49e8c8cc82.jpg",
+    "static/media/slider3.jpg": "/fat-bros/static/media/slider3.66bba51533e724b1eac9.jpg",
+    "static/media/video4-image.jpg": "/fat-bros/static/media/video4-image.2d33eaf1a33961b4513c.jpg",
+    "static/media/fat-bros.jpg": "/fat-bros/static/media/fat-bros.86ca9875072c9b3563cf.jpg",
+    "static/media/slider5.jpg": "/fat-bros/static/media/slider5.3180d852bee49facdb02.jpg",
+    "static/media/instagram.png": "/fat-bros/static/media/instagram.97942be1b9f8e0059ba6.png",
+    "static/media/fat-dog.jpg": "/fat-bros/static/media/fat-dog.1601a6c179560cf32282.jpg",
+    "static/media/fat-koefte.jpg": "/fat-bros/static/media/fat-koefte.1931f5f17043a6b1488b.jpg",
+    "static/media/hot-dog.png": "/fat-bros/static/media/hot-dog.a6d3287c36618f221a3f.png",
+    "static/media/bread.png": "/fat-bros/static/media/bread.df00ae4e5a3a7bd2293d.png",
+    "static/media/taco.png": "/fat-bros/static/media/taco.5d64a9c1c84d26710055.png",
+    "static/media/fire.png": "/fat-bros/static/media/fire.f064afa8314a642aeffd.png",
+    "static/media/hamburguer.png": "/fat-bros/static/media/hamburguer.0ee99fb41211248ee7de.png",
+    "static/media/fries.png": "/fat-bros/static/media/fries.94c1608346b2fa718265.png",
+    "static/media/twitter.png": "/fat-bros/static/media/twitter.112d93100806a70e5d28.png",
+    "static/media/beer-mug.png": "/fat-bros/static/media/beer-mug.63b5e594bdc0d666621c.png",
+    "index.html": "/fat-bros/index.html",
+    "main.4ca10654.css.map": "/fat-bros/static/css/main.4ca10654.css.map",
+    "main.7849745d.js.map": "/fat-bros/static/js/main.7849745d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ca10654.css",
+    "static/js/main.7849745d.js"
+  ]
+}
