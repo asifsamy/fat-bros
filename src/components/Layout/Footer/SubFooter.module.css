@@ -1,0 +1,62 @@
+.sub-footer {
+  /* height: 22rem; */
+  /* height: 25.76vw; */
+  height: clamp(10rem, 25.76vw, 35rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #008cba; */
+}
+
+.logo {
+  /* margin: 2rem 2.5rem 0 4rem; */
+  margin-top: clamp(1.6rem, 2vw, 2.5rem);
+  /* top, right, bottom, left */
+}
+
+.sub-footer h1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 5vw;
+}
+
+.first-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 2vw;
+}
+
+.button {
+  background-color: #008cba;
+  border-radius: 0.36vw;
+  border: none;
+  color: white;
+  padding: 0.74vw 1.54vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.31vw;
+  font-weight: 600;
+  margin-left: 7vw;
+  cursor: pointer;
+}
+
+.second-block {
+  margin: 0 0 0 2vw;
+}
+
+.second-block p,
+span {
+  font-size: 1.7vw;
+}
+
+.second-block img {
+  height: 2.5vw;
+  width: 2.5vw;
+}
+
+.third-block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,38 @@
+.post {
+  /* border: 1px solid #dbdbdb;
+  border-radius: 4px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 1.7vw;
+}
+
+.info {
+  flex-direction: column;
+}
+
+.title {
+  font-size: 0.95vw;
+}
+
+.date {
+  font-size: 0.9vw;
+  color: rgba(0, 0, 0, 0.726);
+}
+
+.insta-link {
+  margin-left: 14.5vw;
+  text-decoration: none;
+  color: black;
+}
+
+.insta-body {
+  border-top: 1px solid rgba(0, 0, 0, 0.226);
+  flex-direction: flex;
+  padding: 1.7vw;
+}

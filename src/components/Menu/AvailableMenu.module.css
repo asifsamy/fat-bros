@@ -1,0 +1,48 @@
+.menu-area {
+  margin: 3vw 1.9vw 3vw 1.9vw;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5vw;
+  padding: 0.73vw;
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container ul {
+  list-style: none;
+}
+
+.grid-container li {
+  list-style: none;
+  width: clamp(2rem, 20vw, 22rem);
+}
+
+.grid-container h6 {
+  font-size: 1.31vw;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: -0.1rem;
+  margin-top: -0.1rem;
+}
+
+.grid-container p {
+  font-size: 0.8vw;
+  font-style: italic;
+}
+
+.grid-container img {
+  height: 25vw;
+  width: 24vw;
+  border-radius: 40%;
+  padding-right: 5vw;
+  /* object-fit: cover;
+  object-position: 50% 50%;
+  position: static;
+  box-shadow: 0 0 0 #000;
+  user-select: none; */
+}

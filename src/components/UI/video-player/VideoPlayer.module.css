@@ -1,0 +1,35 @@
+.video-wrapper {
+  position: relative;
+  height: auto;
+}
+
+.video {
+  width: 100%;
+  display: block;
+  height: 41.2vw;
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.video-control {
+  width: 100px;
+  transition: opacity 200ms linear;
+}
+
+.control-shown {
+  opacity: 1;
+}
+
+.control-hidden {
+  opacity: 0;
+}

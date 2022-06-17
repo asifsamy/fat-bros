@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3.5vw 0 3.5vw 0;
+}
+
+.card-frame {
+  padding: 0 0.27vw 0 0.27vw;
+  position: relative;
+}
+
+.video {
+  height: 15vw;
+  width: 20vw;
+  cursor: pointer;
+}
+
+.hoverinfo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 3;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.39);
+  font-size: 1vw;
+}
+
+.hoverinfo:hover {
+  opacity: 1;
+}
