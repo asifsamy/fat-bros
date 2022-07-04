@@ -1,3 +1,40 @@
+.home {
+  margin-top: -2.5vw;
+}
+
+.home h1 {
+  /* font-size: 70.4px; */
+  font-size: clamp(2rem, 5.6vw, 6.7rem);
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  /* border-bottom: 8px solid #b6270e; */
+  letter-spacing: 0.22vw;
+  text-shadow: 0 1px 0px #808d93, 1px 0 0px #cdd2d5, 1px 2px 1px #808d93,
+    2px 1px 1px #cdd2d5, 2px 3px 2px #808d93, 3px 2px 2px #cdd2d5,
+    3px 4px 2px #808d93, 4px 3px 3px #cdd2d5, 4px 5px 3px #808d93,
+    5px 4px 4px #cdd2d5;
+}
+
+.home .border:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  margin-top: -4.7vw;
+  width: clamp(
+    10rem,
+    34vw,
+    40rem
+  ); /* Change this to whatever width you want. */
+  border-bottom: 8px solid #b6270e; /* This creates the border. Replace black with whatever color you want. */
+}
+
+@media screen and (min-width: 1800px) {
+  .home .border:after {
+    margin-top: -3vw;
+  }
+}
+
 .menu-area {
   margin: 3vw 1.9vw 3vw 1.9vw;
 }

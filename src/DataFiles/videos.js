@@ -1,7 +1,6 @@
-import Video1 from "../../assets/video1.mp4";
-import Video2 from "../../assets/video2.mp4";
-import Video3 from "../../assets/video3.mp4";
-import Video4 from "../../assets/video4-image.jpg";
+import Video1 from "../assets/video1.mp4";
+import Video2 from "../assets/video2.mp4";
+import Video3 from "../assets/video3.mp4";
 
 export const VideoList = [
   {

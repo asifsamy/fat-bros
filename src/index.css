@@ -6,6 +6,7 @@
 
 html {
   font-family: "Noto Sans JP", sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 
 body {
@@ -13,35 +14,23 @@ body {
   background-color: hsl(49, 80%, 96%);
 }
 
-.home h1 {
-  /* font-size: 70.4px; */
-  font-size: clamp(2rem, 5.8vw, 6.7rem);
-  text-transform: uppercase;
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-  /* border-bottom: 8px solid #b6270e; */
-  letter-spacing: 5px;
-  text-shadow: 0 1px 0px #808d93, 1px 0 0px #cdd2d5, 1px 2px 1px #808d93,
-    2px 1px 1px #cdd2d5, 2px 3px 2px #808d93, 3px 2px 2px #cdd2d5,
-    3px 4px 2px #808d93, 4px 3px 3px #cdd2d5, 4px 5px 3px #808d93,
-    5px 4px 4px #cdd2d5;
+/* .menu {
+  margin-top: clamp(12rem, 14vw, 28rem);
 }
 
-.home .border:after {
-  content: ""; /* This is necessary for the pseudo element to work. */
-  display: block; /* This will put the pseudo element on its own line. */
-  margin: 0 auto; /* This will center the border. */
-  margin-top: -4.5vw;
-  width: clamp(
-    10rem,
-    37vw,
-    40rem
-  ); /* Change this to whatever width you want. */
-  border-bottom: 8px solid #b6270e; /* This creates the border. Replace black with whatever color you want. */
-}
-
-@media screen and (min-width: 1800px) {
-  .home .border:after {
-    margin-top: -3vw;
+@media screen and (max-width: 400px) {
+  .menu {
+    margin-top: 20rem;
   }
+}
+
+@media screen and (max-width: 298px) {
+  .menu {
+    margin-top: 22rem;
+  }
+} */
+
+.section-bg {
+  background-image: url("./assets/bg-hamburg.jpg");
+  margin-bottom: -1.5vw;
 }

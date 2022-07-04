@@ -1,0 +1,15 @@
+.contact {
+  margin: 17vw 3vw 4vw 3vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 4vw;
+  color: rgb(36, 32, 32);
+  letter-spacing: 0.5vw;
+  word-spacing: 1vw;
+  text-align: center;
+}

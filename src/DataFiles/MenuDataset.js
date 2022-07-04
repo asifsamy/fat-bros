@@ -1,6 +1,6 @@
-import Falafel from "../../assets/falafel.jpg";
-import FatDog from "../../assets/fat-dog.jpg";
-import FatKoefte from "../../assets/fat-koefte.jpg";
+import Falafel from "../assets/falafel.jpg";
+import FatDog from "../assets/fat-dog.jpg";
+import FatKoefte from "../assets/fat-koefte.jpg";
 
 export const MenuData = [
   {
@@ -9,6 +9,7 @@ export const MenuData = [
     description:
       "UNSERE FALAFEL SIND SELBSTGEMACHT SOWIE ALLE UNSERE BROTE 🫓🥖🤌🏽 - BLATTSALAT 🥬, RUCOLA, BRUSCHETTA MIX 🍅🧅, MOZZARELLA, PARMESANKÄSE 🌯 || FAT FALAFEL A LA MAMA",
     image: Falafel,
+    category: "Falafel",
   },
 
   {
@@ -17,6 +18,7 @@ export const MenuData = [
     description:
       "Ich glaube fast jeder isst gerne Nudel Gerichte🍝 Deshalb haben wir den „Fat Dog a la italy“🇮🇹 für euch entworfen. Er besteht aus Nudeln (Macaroni), Mais und unserer beliebten SigSauer Sauce",
     image: FatDog,
+    category: "Hot Dog",
   },
   {
     id: "menu-03",
@@ -24,6 +26,7 @@ export const MenuData = [
     description:
       "Ich glaube fast jeder isst gerne Nudel Gerichte🍝 Deshalb haben wir den „Fat Dog a la italy“🇮🇹 für euch entworfen. Er besteht aus Nudeln (Macaroni), Mais und unserer beliebten SigSauer Sauce",
     image: FatKoefte,
+    category: "Köfte",
   },
   {
     id: "menu-04",
@@ -31,6 +34,7 @@ export const MenuData = [
     description:
       "UNSERE FALAFEL SIND SELBSTGEMACHT SOWIE ALLE UNSERE BROTE 🫓🥖🤌🏽 - BLATTSALAT 🥬, RUCOLA, BRUSCHETTA MIX 🍅🧅, MOZZARELLA, PARMESANKÄSE 🌯 || FAT FALAFEL A LA MAMA",
     image: Falafel,
+    category: "Falafel",
   },
 
   {
@@ -39,6 +43,7 @@ export const MenuData = [
     description:
       "Ich glaube fast jeder isst gerne Nudel Gerichte🍝 Deshalb haben wir den „Fat Dog a la italy“🇮🇹 für euch entworfen. Er besteht aus Nudeln (Macaroni), Mais und unserer beliebten SigSauer Sauce",
     image: FatDog,
+    category: "Hot Dog",
   },
   {
     id: "menu-06",
@@ -46,6 +51,7 @@ export const MenuData = [
     description:
       "Ich glaube fast jeder isst gerne Nudel Gerichte🍝 Deshalb haben wir den „Fat Dog a la italy“🇮🇹 für euch entworfen. Er besteht aus Nudeln (Macaroni), Mais und unserer beliebten SigSauer Sauce",
     image: FatKoefte,
+    category: "Köfte",
   },
   {
     id: "menu-07",
@@ -53,6 +59,7 @@ export const MenuData = [
     description:
       "UNSERE FALAFEL SIND SELBSTGEMACHT SOWIE ALLE UNSERE BROTE 🫓🥖🤌🏽 - BLATTSALAT 🥬, RUCOLA, BRUSCHETTA MIX 🍅🧅, MOZZARELLA, PARMESANKÄSE 🌯 || FAT FALAFEL A LA MAMA",
     image: Falafel,
+    category: "Dessert",
   },
 
   {
@@ -61,5 +68,6 @@ export const MenuData = [
     description:
       "Ich glaube fast jeder isst gerne Nudel Gerichte🍝 Deshalb haben wir den „Fat Dog a la italy“🇮🇹 für euch entworfen. Er besteht aus Nudeln (Macaroni), Mais und unserer beliebten SigSauer Sauce",
     image: FatDog,
+    category: "Kinder",
   },
 ];

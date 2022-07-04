@@ -4,8 +4,6 @@ import VideoPlayer from "../../UI/video-player/VideoPlayer";
 import classes from "./FooterAdDetail.module.css";
 import { IoLogoInstagram } from "react-icons/io";
 
-import Instagram from "../../../assets/instagram.png";
-
 const ActionBar = () => {
   return (
     <div>
@@ -18,6 +16,7 @@ const ActionBar = () => {
           <a
             href="https://www.instagram.com/reel/Ce0q2rBl1MZ/?utm_source=ig_web_copy_link"
             target="_blank"
+            rel="noreferrer"
           >
             <IoLogoInstagram size="1.7vw" />
           </a>

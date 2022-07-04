@@ -1,0 +1,84 @@
+.heading {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.78vw;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+  color: rgb(44, 56, 56);
+  letter-spacing: 0.5vw;
+  padding-top: 1vw;
+}
+
+.heading-span {
+  font-size: 2.78vw;
+  color: rgb(190, 33, 33);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.map-frame {
+  width: 50vw;
+  height: 55vw;
+  border: 1px solid rgba(44, 56, 56, 0.247);
+}
+
+.info {
+  width: 25vw;
+  /* border: 1px solid black; */
+  margin: 0 2vw 0 11vw;
+  padding: 3vw 0 0 0;
+}
+
+/* .h-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1vw;
+  color: rgba(44, 56, 56, 0.753);
+} */
+.info h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1vw;
+  color: rgba(78, 94, 94, 0.856);
+  font-weight: 200;
+  margin-top: -0.01vw;
+}
+
+/* .c-text {
+  color: rgba(44, 56, 56, 0.89);
+  margin-left: 1vw;
+  margin-top: -0.5vw;
+} */
+
+.info p {
+  color: rgb(41, 43, 43);
+  margin-left: 1vw;
+  margin-top: -1.7vw;
+  font-size: 1.17vw;
+}
+
+.info h2 {
+  color: rgb(47, 54, 54);
+  font-weight: 100;
+  margin-left: 1vw;
+  margin-top: -2.1vw;
+  font-size: 1.76vw;
+}
+
+.bold {
+  text-align: right;
+  font-size: 1.1vw;
+}
+
+.menu-cart {
+  text-align: center;
+  margin: 1vw 0 3vw 0;
+}
+
+.menu-cart img {
+  height: 101vw;
+  width: 56vw;
+  border: 1px solid rgba(47, 54, 54, 0.788);
+  border-radius: 15px;
+}

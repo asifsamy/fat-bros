@@ -1,5 +1,5 @@
 import { BsFillSuitHeartFill } from "react-icons/bs";
-import { Icons } from "../../DataFiles/Icons";
+import { Icons } from "../../../DataFiles/Icons";
 
 import Logo from "../../UI/Logo";
 import classes from "./SubFooter.module.css";

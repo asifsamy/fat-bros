@@ -5,7 +5,7 @@
   height: clamp(4.3rem, 5.04vw, 4.3rem);
   background-color: #a7250e;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-  z-index: 10;
+  z-index: 30;
 }
 
 .nav ul {
@@ -19,8 +19,14 @@
 
 .nav li {
   /* top, right, bottom, left */
-  padding: 0 1.46vw 0 1.46vw;
-  font-size: clamp(1rem, 1.17vw, 2rem); /* 1.17vw; */
+  padding: 0.2vw 1.46vw 0 1.46vw;
+  /* font-size: clamp(1rem, 1.17vw, 2rem); */
+  text-decoration: none;
+  font-size: clamp(0.938rem, 1.09vw, 1.8rem); /* 15px; */
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .nav a {

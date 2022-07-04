@@ -1,7 +1,7 @@
 import { Fragment, useState } from "react";
 import ReactPlayer from "react-player";
 import classes from "./FooterAd.module.css";
-import { VideoList } from "../../DataFiles/videos";
+import { VideoList } from "../../../DataFiles/videos";
 import FooterAdDetail from "./FooterAdDetail";
 let videoObj;
 

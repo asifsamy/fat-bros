@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import classes from "./Header.module.css";
 import OrderButton from "../UI/OrderButton";
 import { MdLocationPin } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -16,10 +17,10 @@ const Header = () => {
           <OrderButton>ORDER DELIVERY</OrderButton>
         </div>
         <div className={classes["nav-elemnts"]}>
-          <a className={classes["link-element"]} href="!#">
+          <Link className={classes["link-element"]} to="/standort">
             <MdLocationPin size="1.5rem" color="red" />
             <div>Find Location</div>
-          </a>
+          </Link>
           <Navbar />
         </div>
       </div>

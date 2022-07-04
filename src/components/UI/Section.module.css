@@ -1,0 +1,15 @@
+.section {
+  margin-top: clamp(12rem, 14vw, 28rem);
+}
+
+@media screen and (max-width: 400px) {
+  .section {
+    margin-top: 20rem;
+  }
+}
+
+@media screen and (max-width: 298px) {
+  .section {
+    margin-top: 22rem;
+  }
+}

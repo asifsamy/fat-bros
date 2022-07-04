@@ -1,0 +1,83 @@
+.location {
+  margin: clamp(13rem, 15vw, 30rem) 15vw 3vw 15vw;
+}
+
+.sub-location {
+  display: flex;
+  /* margin: clamp(13rem, 15vw, 30rem) 15vw 3vw 15vw; */
+  margin-top: 2vw;
+  position: relative;
+}
+
+.frame {
+  height: 60vw;
+  width: 46vw;
+  border: 1px solid rgba(63, 131, 139, 0.534);
+  margin-left: 1vw;
+  /* overflow: auto; */
+}
+
+.location-input {
+  display: flex;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  align-items: center;
+}
+
+.location-input p {
+  font-size: 0.99vw;
+  text-transform: uppercase;
+  color: rgba(61, 55, 55, 0.938);
+  margin-right: 0.6vw;
+}
+
+.location-input button {
+  background-color: rgb(221, 50, 50);
+  border: 1px solid rgb(180, 44, 44);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.99vw;
+  cursor: pointer;
+  /* width: clamp(0.5rem, 11vw, 30rem); */
+  width: 11vw;
+  height: 2.5vw;
+  margin-right: 0.6vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-input input {
+  width: clamp(4rem, 44.5vw, 70rem);
+  height: 2.5vw;
+  border: 1px solid rgba(107, 97, 97, 0.39);
+  z-index: 10;
+  color: rgb(71, 62, 62);
+  font-size: 0.95vw;
+  padding: 0.6vw;
+}
+
+.location-input ul {
+  width: clamp(4rem, 44.5vw, 70rem);
+  margin: 0;
+  padding: 0;
+  background-color: hsl(49, 80%, 96%);
+  list-style-type: none;
+  position: absolute;
+  z-index: 10;
+  max-height: 10vw;
+  overflow-y: auto;
+}
+
+.location-input li {
+  border: 1px solid rgba(107, 97, 97, 0.39);
+  color: rgb(71, 62, 62);
+  padding: 0.6vw;
+  font-size: 0.95vw;
+}
+
+/* .search-box {
+  width: clamp(4rem, 44.5vw, 70rem);
+  height: 2.5vw;
+} */

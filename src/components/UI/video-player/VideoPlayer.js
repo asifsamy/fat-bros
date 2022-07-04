@@ -1,4 +1,4 @@
-import { Fragment, useCallback, useRef, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 import Play from "../../../assets/play.png";
 import classes from "./VideoPlayer.module.css";
 

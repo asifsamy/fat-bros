@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { SliderData } from "./SliderData";
+import { SliderData } from "../../../DataFiles/SliderData";
 
 import classes from "./Carousel.module.css";
 import CarouselControls from "./CarouselControls";

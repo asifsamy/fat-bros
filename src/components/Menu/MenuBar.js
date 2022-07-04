@@ -1,30 +1,32 @@
 import classes from "./MenuBar.module.css";
 
-const MenuBar = () => {
+const MenuBar = ({ allCategories, filter }) => {
   return (
     <nav className={classes.nav}>
       <ul>
-        <li>
-          <a href="!#">Full Menu</a>
+        {allCategories.map((category, i) => (
+          <li key={i} onClick={() => filter(category)}>
+            {category}
+          </li>
+        ))}
+        {/* <li>
+          <a href="!#">Hot Dog</a>
         </li>
         <li>
-          <a href="!#">Fat Dog</a>
+          <a href="!#">Falafel</a>
         </li>
         <li>
-          <a href="!#">Fat Falafel</a>
+          <a href="!#">Pommes</a>
         </li>
         <li>
-          <a href="!#">Fat Pommes</a>
+          <a href="!#">Köfte</a>
         </li>
         <li>
-          <a href="!#">Fat Köfte</a>
+          <a href="!#">Kinder</a>
         </li>
         <li>
-          <a href="!#">Kids</a>
-        </li>
-        <li>
-          <a href="!#">Desserts</a>
-        </li>
+          <a href="!#">Dessert</a>
+        </li> */}
       </ul>
     </nav>
   );

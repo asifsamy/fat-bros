@@ -1,0 +1,70 @@
+.map-info {
+  height: 20vw;
+  /* height: auto; */
+  width: 20vw;
+  padding: 0vw 1vw 1vw 1vw;
+  border: 1px solid rgba(63, 131, 139, 0.534);
+  margin-bottom: 1vw;
+}
+
+.map-info h3 {
+  color: rgba(168, 96, 236, 0.952);
+  font-weight: 400;
+  margin-bottom: 0.6vw;
+  font-size: 1.35vw;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.map-info p {
+  font-size: 1.05vw;
+  color: rgba(49, 63, 63, 0.87);
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 0.35vw;
+}
+
+.map-info h6 {
+  font-size: 0.922vw;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0.35vw;
+}
+
+.map-info button {
+  background-color: rgb(221, 50, 50);
+  border: 1px solid rgb(180, 44, 44);
+  border-radius: 0.22vw;
+  color: white;
+  /* padding: 1.09vw 2.34vw; */
+  margin-bottom: 0.4vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.02vw;
+  cursor: pointer;
+  width: clamp(1rem, 17.7vw, 30rem);
+  height: 2.5vw;
+}
+
+.map-info button:hover {
+  background-color: rgb(150, 5, 5);
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+
+@media screen and (max-width: 400px) {
+  .location {
+    margin-top: 21rem;
+  }
+}
+
+@media screen and (max-width: 298px) {
+  .location {
+    margin-top: 23rem;
+  }
+}

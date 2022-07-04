@@ -1,6 +1,6 @@
-import meal from "../../../assets/slider3.jpg";
-import decoration from "../../../assets/slider4.jpg";
-import location from "../../../assets/slider5.jpg";
+import meal from "../assets/slider3.jpg";
+import decoration from "../assets/slider4.jpg";
+import location from "../assets/slider5.jpg";
 
 export const SliderData = [
   { title: "Delicious Meal", subtitle: "Have your best meal", img: meal },

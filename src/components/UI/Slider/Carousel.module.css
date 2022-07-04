@@ -33,6 +33,7 @@
   /* width: 1350px; */
   width: 100%;
   height: 800px;
+  /* height: clamp(40rem, 58.56vw, 60rem); */
   /* border-radius: 10px; */
 }
 
