@@ -1,7 +1,7 @@
 {
   "name": "fat-bros",
   "version": "0.1.0",
-  "homepage": "https://asifsamy.github.io/fat-bros",
+  "homepage": "https://asifsamy.github.io/fat-bros/",
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^2.12.0",
