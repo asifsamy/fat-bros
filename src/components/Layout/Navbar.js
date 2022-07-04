@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className={classes.nav}>
       <ul>
         <li>
-          <NavLink activeClassName={classes.active} to="/home">
+          <NavLink activeClassName={classes.active} to="/" exact={true}>
             Home
           </NavLink>
         </li>
