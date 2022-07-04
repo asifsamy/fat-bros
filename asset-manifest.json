@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fat-bros/static/css/main.24748ba8.css",
-    "main.js": "/fat-bros/static/js/main.2a4a9d1f.js",
+    "main.js": "/fat-bros/static/js/main.e0c510a0.js",
     "static/media/video1.mp4": "/fat-bros/static/media/video1.bab16dbc7c5710180e71.mp4",
     "static/media/video2.mp4": "/fat-bros/static/media/video2.85c3cde827126e72a5a4.mp4",
     "static/media/falafel.jpg": "/fat-bros/static/media/falafel.ae5122eac510848add61.jpg",
@@ -25,10 +25,10 @@
     "static/media/beer-mug.png": "/fat-bros/static/media/beer-mug.63b5e594bdc0d666621c.png",
     "index.html": "/fat-bros/index.html",
     "main.24748ba8.css.map": "/fat-bros/static/css/main.24748ba8.css.map",
-    "main.2a4a9d1f.js.map": "/fat-bros/static/js/main.2a4a9d1f.js.map"
+    "main.e0c510a0.js.map": "/fat-bros/static/js/main.e0c510a0.js.map"
   },
   "entrypoints": [
     "static/css/main.24748ba8.css",
-    "static/js/main.2a4a9d1f.js"
+    "static/js/main.e0c510a0.js"
   ]
 }
