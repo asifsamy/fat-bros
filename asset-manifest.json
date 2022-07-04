@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/fat-bros/static/css/main.4ca10654.css",
-    "main.js": "/fat-bros/static/js/main.7849745d.js",
+    "main.css": "/fat-bros/static/css/main.24748ba8.css",
+    "main.js": "/fat-bros/static/js/main.2a4a9d1f.js",
     "static/media/video1.mp4": "/fat-bros/static/media/video1.bab16dbc7c5710180e71.mp4",
     "static/media/video2.mp4": "/fat-bros/static/media/video2.85c3cde827126e72a5a4.mp4",
     "static/media/falafel.jpg": "/fat-bros/static/media/falafel.ae5122eac510848add61.jpg",
     "static/media/video3.mp4": "/fat-bros/static/media/video3.a4e8a5942d0f1dd9574e.mp4",
+    "static/media/speisekarte.jpg": "/fat-bros/static/media/speisekarte.1ba8ef2d4412170e69b0.jpg",
     "static/media/slider4.jpg": "/fat-bros/static/media/slider4.cb783da3de49e8c8cc82.jpg",
     "static/media/slider3.jpg": "/fat-bros/static/media/slider3.66bba51533e724b1eac9.jpg",
-    "static/media/video4-image.jpg": "/fat-bros/static/media/video4-image.2d33eaf1a33961b4513c.jpg",
     "static/media/fat-bros.jpg": "/fat-bros/static/media/fat-bros.86ca9875072c9b3563cf.jpg",
+    "static/media/bg-hamburg.jpg": "/fat-bros/static/media/bg-hamburg.71922c3482e5a25b1810.jpg",
     "static/media/slider5.jpg": "/fat-bros/static/media/slider5.3180d852bee49facdb02.jpg",
     "static/media/instagram.png": "/fat-bros/static/media/instagram.97942be1b9f8e0059ba6.png",
     "static/media/fat-dog.jpg": "/fat-bros/static/media/fat-dog.1601a6c179560cf32282.jpg",
@@ -23,11 +24,11 @@
     "static/media/twitter.png": "/fat-bros/static/media/twitter.112d93100806a70e5d28.png",
     "static/media/beer-mug.png": "/fat-bros/static/media/beer-mug.63b5e594bdc0d666621c.png",
     "index.html": "/fat-bros/index.html",
-    "main.4ca10654.css.map": "/fat-bros/static/css/main.4ca10654.css.map",
-    "main.7849745d.js.map": "/fat-bros/static/js/main.7849745d.js.map"
+    "main.24748ba8.css.map": "/fat-bros/static/css/main.24748ba8.css.map",
+    "main.2a4a9d1f.js.map": "/fat-bros/static/js/main.2a4a9d1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ca10654.css",
-    "static/js/main.7849745d.js"
+    "static/css/main.24748ba8.css",
+    "static/js/main.2a4a9d1f.js"
   ]
 }
